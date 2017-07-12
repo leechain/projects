@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS方法实现下拉菜单</title>
+
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #content {
+            height: 40px;
+            width: 488px;
+            margin: 0 auto;
+            background-color: gainsboro;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            float: left;
+            line-height: 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 0 20px;
+        }
+
+        ul li a:hover {
+            background-color: #666;
+            color: #fff;
+        }
+
+        ul li ul li {
+            float: none;
+            margin-top: 2px;
+            background-color: #eee;
+        }
+
+        ul li ul {
+            width: 104px;
+            display: none;
+            position: absolute;
+        }
+
+        ul li ul li a {
+            background-color: gainsboro;
+        }
+
+        ul li ul li a:hover {
+            background-color: blue;
+        }
+    </style>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            showhide();
+        }
+
+        //showhide0()的进一步简化版本
+        function showhide() {
+            var lis = document.getElementById("content").childNodes[1].childNodes;
+            for (var i = 0; i < lis.length; i++) {
+                var ps = lis[i].childNodes;
+                for (var j = 0; j < ps.length; j++) {
+                    if (ps[j].nodeName == "UL") {
+                        lis[i].onmouseover = function () {
+                            this.getElementsByTagName("ul")[0].style.display = "block";
+                        }
+                        lis[i].onmouseout = function () {
+                            this.getElementsByTagName("ul")[0].style.display = "none";
+                        }
+                    }
+                }
+            }
+        }
+
+        function showhide0() {
+
+            //--1、获得第一层的ul
+
+            //做法一
+            /*
+            var ul0 = document.getElementById("content").childNodes[1];//第二个为UL节点
+            console.log(ul0);
+            */
+
+            //做法二
+            var ul0;
+            var ul0t = document.getElementById("content").childNodes;
+            for (var i = 0; i < ul0t.length; i++) {
+                if (ul0t[i].nodeName == "UL") {
+                    ul0 = ul0t[i];
+                    break;
+                }
+            }
+
+            //--2、获得第一层ul的所有位于第二层的子节点li
+
+            //先获得第一层ul的所有子节点lis2t
+            var lis2t = ul0.childNodes;
+
+            //遍历子节点并为含ul的添加事件
+            for (var i = 0; i < lis2t.length; i++) {
+                //获得每一个li的所有子节点cns
+                var cns = lis2t[i].childNodes;
+                //--3、遍历cns并判断添加鼠标事件
+                for (var j = 0; j < cns.length; j++) {
+                    if (cns[j].nodeName == "UL") {
+                        lis2t[i].onmouseover = function () {
+                            //做法一
+                            // this.getElementsByTagName("ul")[0].style.display = "block";
+
+                            //做法二
+                            var ts = this.childNodes;
+                            for (var i = 0; i < ts.length; i++) {
+                                if (ts[i].nodeName == "UL") {
+                                    ts[i].style.display = "block";
+                                    break;
+                                }
+                            }
+
+                        }
+                        lis2t[i].onmouseout = function () {
+                            //做法一
+                            this.getElementsByTagName("ul")[0].style.display = "none";
+
+                            //做法二
+                            /*
+                            var ts = this.childNodes;
+                            for (var i = 0; i < ts.length; i++) {
+                                if (ts[i].nodeName == "UL") {
+                                    ts[i].style.display = "none";
+                                    break;
+                                }
+                            }
+                            */
+                        }
+                    }
+                }
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">课程大厅</a>
+                <ul>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">jQuery</a></li>
+                    <li><a href="#">PHP</a></li>
+                </ul>
+            </li>
+            <li><a href="#">学习中心</a>
+                <ul>
+                    <li><a href="#">视频学习</a></li>
+                    <li><a href="#">案例学习</a></li>
+                    <li><a href="#">交流平台</a></li>
+                </ul>
+            </li>
+            <li><a href="#">经典案例</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

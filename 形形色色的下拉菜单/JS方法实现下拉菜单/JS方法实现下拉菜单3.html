@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS方法实现下拉菜单</title>
+
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #content {
+            height: 40px;
+            width: 488px;
+            margin: 0 auto;
+            background-color: gainsboro;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        ul li {
+            float: left;
+            line-height: 40px;
+            text-align: center;
+            position: relative;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 0 20px;
+        }
+        
+        ul li a:hover {
+            background-color: #666;
+            color: #fff;
+        }
+        
+        ul li ul li {
+            float: none;
+            margin-top: 2px;
+            background-color: #eee;
+        }
+        
+        ul li ul {
+            width: 104px;
+            display: none;
+            position: absolute;
+        }
+        
+        ul li ul li a {
+            background-color: gainsboro;
+        }
+        
+        ul li ul li a:hover {
+            background-color: blue;
+        }
+    </style>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            showhide();
+        }
+
+        // function showhide() {
+        //     var lis = document.getElementsByClassName("navmenu");
+        //     for (var i = 0; i < lis.length; i++) {
+        //         lis[i].onmouseover = function() {
+        //             // navbox[i].style.display = "block";
+        //             document.getElementsByClassName("nav").item(i).style.display = "block";
+        //         }
+        //         lis[i].onmouseout = function() {
+        //             // navbox[i].style.display = "none";
+        //             document.getElementsByClassName("nav").item(i).style.display = "none";
+        //         }
+        //     }
+        // }
+
+        // var lis = document.getElementsByClassName("navmenu");
+        // navbox = (function() {
+        //     var navs = document.getElementsByClassName("nav");
+        //     for (var i = 0; i < navs.length; i++) {
+        //         navbox.push(navs[i]);
+        //     }
+        //     return navbox;
+        // })(); //闭包
+
+        //能实现功能
+        // function showhide() {
+        //     var contentId = document.getElementById("content");
+        //     var ul0 = contentId.childNodes[1];
+        //     var lis = ul0.childNodes;
+
+        //     for (i = 0; i < lis.length; i++) {
+        //         var uls = lis[i].childNodes;
+        //         for (j = 0; j < uls.length; j++) {
+        //             if (uls[j].nodeName == "UL") {
+        //                 lis[i].onmouseover = function() {
+        //                     this.getElementsByTagName("ul")[0].style.display = "block";
+        //                 }
+        //                 lis[i].onmouseout = function() {
+        //                     this.getElementsByTagName("ul")[0].style.display = "none";
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
+
+        function showhide() {
+            var child = document.getElementById("content").childNodes[1].childNodes;
+            var lis = [];
+            for (var i = 0; i < child.length; i++) {
+                if (child[i].nodeName == "LI") {
+                    lis.push(child[i]);
+                }
+                for (var j = 0; j < lis.length; j++) {
+                    lis[j].onmouseover = function() {
+                        this.getElementsByTagName("ul")[0].style.display = "block";
+                    }
+                    lis[j].onmouseout = function() {
+                        this.getElementsByTagName("ul")[0].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">课程大厅</a>
+                <ul>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">jQuery</a></li>
+                    <li><a href="#">PHP</a></li>
+                </ul>
+            </li>
+            <li><a href="#">学习中心</a>
+                <ul>
+                    <li><a href="#">视频学习</a></li>
+                    <li><a href="#">案例学习</a></li>
+                    <li><a href="#">交流平台</a></li>
+                </ul>
+            </li>
+            <li><a href="#">经典案例</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
