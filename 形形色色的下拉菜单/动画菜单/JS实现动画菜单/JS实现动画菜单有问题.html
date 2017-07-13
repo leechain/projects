@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>JS实现动画菜单</title>
+    <style type="text/css">
+        .top-nav {
+            font-size: 16px;
+            font-weight: bold;
+            list-style: none;
+        }
+        
+        .top-nav li {
+            float: left;
+            margin-right: 1px;
+        }
+        
+        .top-nav li ul li {
+            float: none;
+        }
+        
+        .top-nav li a {
+            line-height: 34px;
+            text-decoration: none;
+            background: #3f240e;
+            color: #fff;
+            display: block;
+            width: 80px;
+            text-align: center;
+        }
+        
+        .top-nav ul {
+            list-style: none;
+            display: none;
+            padding: 0;
+            position: absolute;
+        }
+        
+        .top-nav li a:hover {
+            background: url(bg.png) 0 0 repeat-x;
+        }
+        
+        .note {
+            color: #3f240e;
+            background: url(bg.png) 0 0 repeat-x;
+            display: block;
+        }
+        
+        .corner {
+            background: url(jiantou.png) 31px 0 no-repeat;
+            display: block;
+            height: 11px;
+        }
+    </style>
+    <script type="text/javascript">
+        var lis = document.getElementsByTagName("li");
+        for (var i = 0; i < lis.length; i++) {
+            lis[i].onmousemove = function() {
+                var u = this.getElementsByTagName("ul")[0];
+                if (u != undefined) {
+                    u.style.display = "block";
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <ul class="top-nav">
+        <li><a href="#"><span class="note">慕课网</span></a></li>
+        <li><a href="#">课程大厅</a>
+            <ul>
+                <span class="corner"></span>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">PHP</a></li>
+            </ul>
+        </li>
+        <li><a href="#">学习中心</a>
+            <ul>
+                <span class="corner"></span>
+                <li><a href="#">前端课程</a></li>
+                <li><a href="#">手机开发</a></li>
+                <li><a href="#">后台编程</a></li>
+            </ul>
+        </li>
+        <li><a href="#">关于我们</a></li>
+    </ul>
+</body>
+
+</html>
