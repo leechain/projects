@@ -1,0 +1,3 @@
+<?php
+//000000000000a:2:{i:0;a:11:{s:8:"goods_id";s:1:"1";s:10:"goods_name";s:5:"kd876";s:6:"cat_id";s:1:"4";s:8:"brand_id";s:1:"8";s:8:"goods_sn";s:9:"ecs000000";s:12:"goods_number";s:1:"1";s:10:"shop_price";s:7:"1388.00";s:12:"market_price";s:7:"1665.60";s:11:"click_count";s:1:"9";s:6:"is_hot";s:1:"1";s:9:"goods_img";s:0:"";}i:1;a:11:{s:8:"goods_id";s:1:"3";s:10:"goods_name";s:25:"诺基亚原装5800耳机";s:6:"cat_id";s:1:"8";s:8:"brand_id";s:1:"1";s:8:"goods_sn";s:9:"ecs000002";s:12:"goods_number";s:2:"24";s:10:"shop_price";s:5:"68.00";s:12:"market_price";s:5:"81.60";s:11:"click_count";s:1:"3";s:6:"is_hot";s:1:"1";s:9:"goods_img";s:0:"";}}
+?>

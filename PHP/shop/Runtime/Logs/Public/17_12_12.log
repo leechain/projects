@@ -1,0 +1,99 @@
+[ 2017-12-12T12:23:24+08:00 ] 127.0.0.1 /Public/Home/css/images/bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-12-12T12:23:24+08:00 ] 127.0.0.1 /Public/Home/css/images/ico_tel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-12-12T12:23:24+08:00 ] 127.0.0.1 /Public/Home/css/images/nav_bg2b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-12-12T12:23:24+08:00 ] 127.0.0.1 /Public/Home/css/images/zoomin.cur
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+ERR: 无法加载控制器:Home
+
+[ 2017-12-12T12:23:24+08:00 ] 127.0.0.1 /Public/Home/css/images/bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-12-12T12:23:24+08:00 ] 127.0.0.1 /Public/Home/css/images/ico-crumb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-12-12T12:23:53+08:00 ] 127.0.0.1 /Public/Home/css/images/repeat.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-12-12T12:23:53+08:00 ] 127.0.0.1 /Public/Home/css/images/bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-12T12:23:53+08:00 ] 127.0.0.1 /Public/Home/css/images/ico-crumb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001914s ]
+
+[ 2017-12-12T12:23:53+08:00 ] 127.0.0.1 /Public/Home/css/images/nav_bg2b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-12-12T12:23:53+08:00 ] 127.0.0.1 /Public/Home/css/images/ico_tel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-12T12:23:53+08:00 ] 127.0.0.1 /Public/Home/css/images/bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-12-12T12:51:50+08:00 ] 127.0.0.1 /Public/Home/css/images/nav_bg2b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-12-12T13:08:34+08:00 ] 127.0.0.1 /Public/Home/css/images/bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+
+[ 2017-12-12T13:08:34+08:00 ] 127.0.0.1 /Public/Home/css/images/nav_bg2b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-12T13:08:34+08:00 ] 127.0.0.1 /Public/Home/css/images/ico_tel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-12T13:08:34+08:00 ] 127.0.0.1 /Public/Home/css/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-12T13:08:34+08:00 ] 127.0.0.1 /Public/Home/css/images/i.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019030s ]
+
+[ 2017-12-12T13:08:34+08:00 ] 127.0.0.1 /Public/Home/css/images/bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+

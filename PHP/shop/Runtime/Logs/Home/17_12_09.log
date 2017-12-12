@@ -1,0 +1,1952 @@
+[ 2017-12-09T08:29:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003753s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0075s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( is_hot=1 ) ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003752s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003752s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Undefined variable: his C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 129 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 202 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 202 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 202 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003752s ]
+
+[ 2017-12-09T08:29:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0038s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( is_hot=1 ) ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Undefined variable: his C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 129 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 202 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 202 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 202 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 199 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T08:48:47+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 8 LIMIT 1   [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: mbx C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+NOTIC: [8] Undefined index: goods_desc C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T08:48:47+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: mbx C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T08:59:49+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+
+[ 2017-12-09T09:00:11+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+NOTIC: [8] Undefined index: goods_desc C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:00:11+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003906s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2017-12-09T09:00:20+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003515s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+NOTIC: [8] Undefined index: goods_desc C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:00:20+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003516s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003516s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:00:27+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003867s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:00:28+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003867s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003867s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003867s ]
+
+[ 2017-12-09T09:00:32+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003868s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+NOTIC: [8] Undefined index: goods_desc C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:00:32+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:02:42+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+NOTIC: [8] Undefined index: goods_desc C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2017-12-09T09:02:42+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:02:44+08:00 ] 127.0.0.1 /index.php/Home/cat/cat/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=1 ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003906s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003906s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2017-12-09T09:02:44+08:00 ] 127.0.0.1 /index.php/Home/cat/cat/cat_id/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:02:44+08:00 ] 127.0.0.1 /index.php/Home/cat/cat/cat_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+
+[ 2017-12-09T09:02:50+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003515s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,3   [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 243 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 243 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 243 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003515s ]
+
+[ 2017-12-09T09:02:50+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:02:50+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003515s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+
+[ 2017-12-09T09:02:52+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 243 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 243 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 243 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003516s ]
+
+[ 2017-12-09T09:02:52+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:02:52+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+
+[ 2017-12-09T09:03:04+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+NOTIC: [8] Undefined index: goods_desc C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:03:04+08:00 ] 127.0.0.1 /index.php/Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\xampp\htdocs\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:03:07+08:00 ] 127.0.0.1 /index.php/Home/cat/cat/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:03:07+08:00 ] 127.0.0.1 /index.php/Home/cat/cat/cat_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0085s ]
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+
+[ 2017-12-09T09:03:07+08:00 ] 127.0.0.1 /index.php/Home/cat/cat/cat_id/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004254s ]
+
+[ 2017-12-09T09:09:06+08:00 ] 127.0.0.1 /index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:09:06+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:10:22+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:10:22+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:43:17+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:43:20+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:43:22+08:00 ] 127.0.0.1 /index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:45:01+08:00 ] 127.0.0.1 /index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:45:01+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:46:31+08:00 ] 127.0.0.1 /index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:46:31+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:46:40+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005860s ]
+
+[ 2017-12-09T09:46:40+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:46:55+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005274s ]
+
+[ 2017-12-09T09:46:55+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:49:43+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:49:43+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:49:45+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:49:45+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:51:03+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-09T09:51:04+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:51:07+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-09T09:51:09+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003114s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:54:04+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-09T09:54:05+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:54:18+08:00 ] 127.0.0.1 /index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003460s ]
+
+[ 2017-12-09T09:54:18+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:54:39+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-09T09:56:23+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:56:33+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`email`,`password`) VALUES ('12345','1234@qq.com','123') [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T09:56:33+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T09:58:41+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `username` = '12345' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-09T09:58:43+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:02:12+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `username` = '123456' LIMIT 1   [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-12-09T10:13:04+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:13:28+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `username` = 'test2' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`email`,`password`,`salt`) VALUES ('test2','12345@qq.com',' ,�b�Y[�K-#Kp','7sds2cb9') [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:13:28+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:15:21+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:15:21+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:15:21+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:16:38+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2017-12-09T10:16:38+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:16:38+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:20:30+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 ) LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [8] Use of undefined constant userinfo - assumed 'userinfo' C:\xampp\htdocs\shop\Home\Controller\UserController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2017-12-09T10:20:30+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:20:30+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:20:42+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `user` WHERE ( username=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userinfo - assumed 'userinfo' C:\xampp\htdocs\shop\Home\Controller\UserController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:20:42+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:20:42+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003516s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:21:31+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `user` WHERE ( username=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userinfo - assumed 'userinfo' C:\xampp\htdocs\shop\Home\Controller\UserController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:21:31+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:21:31+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:21:43+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+ERR: 1054:Unknown column 'test3' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username=test3 ) LIMIT 1  
+ERR: 1054:Unknown column 'test3' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username=test3 ) LIMIT 1  
+
+[ 2017-12-09T10:21:52+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:21:52+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:45:54+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+
+[ 2017-12-09T10:45:57+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:45:57+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:49:46+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003515s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `user` WHERE `username` = '12345' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:49:49+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:49:49+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003867s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:50:00+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user` WHERE `username` = '12345' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004254s ]
+
+[ 2017-12-09T10:50:04+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:50:04+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:50:13+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `user` WHERE `username` = '123' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:50:15+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:50:15+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:50:15+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003828s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:50:26+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003445s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user` WHERE `username` = '12345' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:50:29+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:50:29+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003790s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:50:29+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:57:06+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:57:06+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:57:06+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:57:38+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004423s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:57:40+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:57:40+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:57:40+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004424s ]
+ERR: 非法操作:api
+
+[ 2017-12-09T10:57:50+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'test2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:57:52+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-09T10:57:52+08:00 ] 127.0.0.1 /index.php/Home/user/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004866s ]
+ERR: 非法操作:yzm
+
+[ 2017-12-09T10:57:52+08:00 ] 127.0.0.1 /index.php/Home/user/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:api
+

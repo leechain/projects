@@ -1,74 +1,87 @@
 <?php
 
-/**
- * @Author: lee li
- * @Date:   2017-12-04 09:32:07
- * @Last Modified by:   lee li
- * @Last Modified time: 2017-12-04 20:58:56
- */
-
 namespace Home\Controller;
 use Think\Controller;
+class UserController extends Controller {
+	// 登录
+    public function login(){
 
-class UserController extends Controller{
-	public function add(){
-		// echo C('WEB_NAME');//C函数读取配置文件里面参数的值
-		// C('WEB_NAME','ssss');//C函数也可以设置配置文件里参数的值，只是运行的时候修改，并不会改变配置文件中的值
-		// echo C('WEB_NAME');
-		// exit;
-		$a=123;
-		$this->assign('a',$a);
-		$this->display();
-	}
+    	if(IS_POST){
+    		$username=I('post.username');
+    		$pwd=I('post.password');
+    		$code=I('post.yzm');
 
+      	// 	$Verify=new \Think\Verify();
+      	// 	if(!$Verify->check($code)){
+	    		// $this->error('验证码错误','',2);
+      	// 	}
 
-	// 增
-	public function ff(){
-		// get=$_GET['id'];
-		$get=I('id');
-		echo $get;
-		exit;
+	    	$userModel=D('user');
+	    	$userinfo=$userModel->where(array('username'=>$username))->find();
 
+	    	if(!$userinfo){
+	    		$this->error('用户名错误','',2);
+	    	}
+	    	if($userinfo['password']!==md5($pwd.$userinfo['salt'])){
+	    		$this->error('密码错误','',2);
+	    	}else{
+	    		cookie('userid',$userinfo['password']);
+	    		cookie('username',$userinfo['username']);
 
-		$a=new \Home\Model\XxxModel;
-		// $a->papa();
-		// $a=D('Xxx');//子类，封装，虽然大小写对结果没有什么影响，但是要区分大小写
-		// var_dump($a);
+	    		$coo_kie=jm($userinfo['username'].$userinfo['password'].C('COO_KIE'));
+	    		cookie('key',$coo_kie);
+	    		$this->success('登录成功','/',3);
+	    	}
+    	}
+    	$this->display(); 
+    }
 
+    public function logout(){
+    	// 清除cookie即可
+    	cookie('username',null);
+    	cookie('userid',null);
+    	cookie('key',null);
+	    $this->success('退出成功','/',3);
+    }
 
-		// $b=M('Xxx');//父类
-		// $b->add();
+    public function yzm(){
+      	$Verify=new \Think\Verify();
+      	$Verify->fontSize=20;
+      	$Verify->length=3;
+    	$Verify->entry(); 	
+    }
 
-		// 面向过程化风格
-		// $d=$a->add(['name'=>'lisi','age'=>16,'sex'=>'female']);
-		// var_dump($d);
+    public function msg(){
 
-		// 面向对象风格
-		$a->name='wangwu';
-		$a->age=23;
-		$a->sex='man';
-		$a->add();
-	}
+    	$this->display(); 
+    }
 
-	// 查
-	public function cha(){
-		$xxxModel=D('Xxx');
-		//find只能查一条语句，select可以查询多条语句
-		// var_dump($xxxModel->field('name,age')->where('id=6')->find());
-		var_dump($xxxModel->field('id,name,age')->where('id<6')->order('id desc')->limit(2,3)->select());
-	}
+    // 注册
+    public function reg(){
+    	if(IS_POST){
+    		$userModel=D('User');
+	    	if(!$userModel->create()){
+	    		echo $userModel->getError();
+	    		exit;
+	    	}
+	    	$s=$this->yan();
+	    	$userModel->password=md5($userModel->password,$s);
+	    	$userModel->salt=$s;
+	    	$userModel->add();
+    		// var_dump($_POST);
 
-	// 改
-	public function up(){
-		$xxxModel=D('Xxx');
-		$arr=array('name'=>'xiugai');
-		$xxxModel->where('id=1')->save($arr);
-	}
+    	}
+    	
 
-	// 查
-	public function de(){
-		$xxxModel=D('Xxx');
-		// $xxxModel->delete(4);//删除主键值所在行
-		$xxxModel->where('age=11')->delete();//删除符合where条件所对应的行
-	}
+    	$this->display(); 
+    }
+
+    public function yan(){
+    	$str='sqw2h792bcsdcdc23vf';
+    	//打乱字符串str_shuffle,截取前8个
+    	$yan=substr(str_shuffle($str),0,8);
+    	return $yan;
+        // return substr(str_shuffle($str),0,8);
+    }
+
 }

@@ -3,24 +3,19 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        // $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
-    echo 'home';
-    }
+    	// $addTool=new \Home\Tool\AddTool();
+    	// var_dump($addTool->user());
+    	// exit;
 
-    public function aa(){
-    	echo $_GET['id'];
-    }
+    	$catModel=D('Admin/Cat');
+    	$this->assign('cattree',$catModel->gettree());
 
-    public function ve(){
-    	// $a=mt_rand(3,5);
+    	// 热销
+    	$goodsModel=D('Admin/goods');
 
-    	$a=array(
-    		array('id'=>1,'title'=>'冬天来了'),
-    		array('id'=>1,'title'=>'春天来了'),
-    		array('id'=>1,'title'=>'夏天来了')
-    	);
+    	$hot = $goodsModel->field('goods_id,goods_name,shop_price,goods_img,market_price')->where('is_hot=1')->order('goods_id desc')->limit('0,4')->select();
+        $this->assign('hot',$hot);
 
-    	$this->assign('ff',$a);
-    	$this->display();
+    	$this->display(); 
     }
 }
